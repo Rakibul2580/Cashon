@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Myself from '../Myself/Myself';
 import Break from '../Break/Break';
+import Details from '../Details/Details';
 
 const Body = () => {
     const notify = () => toast("Wow so easy!");
@@ -31,7 +32,8 @@ const Body = () => {
                 <div className='w-2/5'>
                     <Myself></Myself>
                     <Break></Break>
-                    <button onClick={notify} className="btn bg-transparent text-white w-45">Add Now</button><ToastContainer />
+                    <Details></Details>
+                    <button onClick={notify} className="btn bg-gradient-to-r from-sky-400 to-indigo-500 border-0 text-white w-45">Add Now</button><ToastContainer />
                 </div>
             </div>
         </div>
