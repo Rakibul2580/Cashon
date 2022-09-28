@@ -1,0 +1,56 @@
+[
+    {
+      "_id": "633460e40df032cc12dd5d1b",
+      "time": 10,
+      "picture": "https://imgk.timesnownews.com/story/Eid_al-Adha_Prayers.jpg?tr=w-400,h-300,fo-auto",
+      "name": "Fajr Prayer"
+    },
+    {
+      "_id": "633460e490de1a77c23717e1",
+      "time": 5,
+      "picture": "https://post.healthline.com/wp-content/uploads/2019/03/Female_Squat_Studio_732x549-thumbnail-2.jpg",
+      "name": "Squats"
+    },
+    {
+      "_id": "633460e43ab70c7e7df992d9",
+      "time": 7,
+      "picture": "https://blog-images.pharmeasy.in/2021/03/12131251/shutterstock_1476569771-1.jpg",
+      "name": "Plank"
+    },
+    {
+      "_id": "633460e470403ccc7628805f",
+      "time": 5,
+      "picture": "https://www.bodybuilding.com/images/2020/xdb/originals/xdb-172a-crunch-m2-16x9.jpg",
+      "name": "Crunches"
+    },
+    {
+      "_id": "633460e4805fe0828294999a",
+      "time": 7,
+      "picture": "https://www.verywellfit.com/thmb/2OyKSEj69_Q2j2jqtRgm2LqsR4I=/1500x1000/filters:fill(auto,1)/Lunges_unannotated1-399b9230f4154a30ad89034ba260fc1b.jpg",
+      "name": "Lunge"
+    },
+    {
+      "_id": "633460e47a42284368d7eca9",
+      "time": 10,
+      "picture": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+      "name": "Push-up"
+    },
+    {
+      "_id": "633460e438aa98fe4a71c481",
+      "time": 20,
+      "picture": "https://787300.smushcdn.com/1494239/wp-content/uploads/2014/12/glute-bridge-variations1-600x600.jpg?lossy=0&strip=1&webp=1",
+      "name": "Glute bridge"
+    },
+    {
+        "_id": "633460e482cf47766d4ef9e0",
+        "time": 15,
+        "picture": "https://www.realsimple.com/thmb/XD1tTixTI4PGKWokDZCFX96X0eg=/2000x1333/filters:fill(auto,1)/how-to-clean-shower-head-2000-1e8ca56bc66b421e87db5ed3825f89ce.jpg",
+        "name": "Shower"
+    },
+    {
+      "_id": "633460e482cf47766d4efAe0",
+      "time": 15,
+      "picture": "https://www.seriouseats.com/thmb/AVdCUACjl50RScwPNVRjVq-Nb4M=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__07__20170728-sunny-side-up-eggs-vicky-wasik-d07c5480d72e49cc85689c1d6d88495e.jpg",
+      "name": "Brack fast"
+    }
+  ]
