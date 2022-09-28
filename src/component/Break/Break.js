@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 
-const Break = () => {
-    const setValue = (value) =>{
-        localStorage.setItem('bread', JSON.stringify(value))
-    }
+const Break = ({setValue}) => {
     return (
         <div>
             <h1 className='text-left my-8 text-blue-800 text-2xl font-semibold flex items-center'>Exercise Details</h1>

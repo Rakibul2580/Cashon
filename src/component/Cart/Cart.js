@@ -1,21 +1,16 @@
 import { data } from 'autoprefixer';
 import React from 'react';
 
-
 import Swal from 'sweetalert2'
-// Swal.fire({
-//     title: 'Error!',
-//     text: 'Do you want to continue',
-//     icon: 'error',
-//     confirmButtonText: 'Cool'
-//   })
 
-// CommonJS
 
-const Cart = ({data}) => {
+
+const Cart = ({data, settotlTime, totlTime}) => {
     const {name, time, picture} = data
-    // const notify = () => toast("Wow so easy!");
-    const notify = () =>{
+    const notifyStime = (addTime) =>{
+        // settotlTime(addTime)
+        totlTime = 0
+        console.log(totlTime)
         Swal.fire({
             text: 'Your work has been saved',
             icon: 'success',
@@ -31,7 +26,10 @@ const Cart = ({data}) => {
                 <p>Time required: {time} Minutes</p>
                 <div className="card-actions justify-center">
                 {/* <button onClick={notify} className="btn bg-transparent text-white w-45">Add Now</button><ToastContainer /> */}
-                <button onClick={notify} className="btn bg-transparent text-white w-full">Add Now</button>
+                <button onClick={()=>{
+                    notifyStime()
+                    settotlTime(time)
+                    }} className="btn bg-transparent text-white w-full">Add Now</button>
                 </div>
             </div>
             </div>
