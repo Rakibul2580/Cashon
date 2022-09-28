@@ -30,7 +30,7 @@ const Body = () => {
                 </div>
                 <div className='w-2/5'>
                     <Myself></Myself>
-                    {/* <Break></Break> */}
+                    <Break></Break>
                     <button onClick={notify} className="btn bg-transparent text-white w-45">Add Now</button><ToastContainer />
                 </div>
             </div>
