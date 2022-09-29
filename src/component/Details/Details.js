@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 
-const Details = ({localData,totlTime}) => {
-    let total = [0]
-    useEffect(()=>{
-        const timeGet = localStorage.getItem('break')
-        // total = parseInt([total + totlTime])
-        console.log('totlTime',timeGet)
-    },[totlTime])
+const Details = ({localData,setExeTime}) => {
+    // let total = [0]
+    // useEffect(()=>{
+    //     const timeGet = localStorage.getItem('break')
+    //     // total = parseInt([total + totlTime])
+    //     console.log('totlTime',timeGet)
+    // },[totlTime])
     return (
         <div>
             <div>
@@ -16,7 +16,7 @@ const Details = ({localData,totlTime}) => {
                         <h1 className='text-left text-white text-xl font-semibold flex items-center'>65</h1>
                     </div>
                     <div>
-                        <p className='text-lg ml-1 text-start text-slate-300'>{total} Minutes</p>
+                        <p className='text-lg ml-1 text-start text-slate-300'>{setExeTime} Minutes</p>
                     </div>
                 </div>
                 <div className='flex p-2 my-5 justify-around rounded-md bg-gradient-to-r from-sky-400 to-indigo-500'>

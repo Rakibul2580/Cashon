@@ -4,7 +4,7 @@ const Myself = () => {
     return (
         <div>
             <div>
-                <div className='flex items-center'>
+                <div className='flex items-center justify-around'>
                     <img src={Myimg} alt="" className='w-20 h-20 rounded-full' />
                     <div>
                         <h1 className='text-left text-blue-900 text-xl font-semibold flex items-center'>Rakibul</h1>
