@@ -50,7 +50,7 @@ const Body = () => {
 
     return (
         <div className='bg-white px-3 md:px-6 lg:px-10 pt-10'>
-            <h1 className='text-left text-blue-900 md:text-5xl md:font-bold text-4xl font-semibold '><FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon> morning work</h1>
+            <h1 className='text-left text-blue-900 md:text-5xl md:font-bold text-4xl font-semibold '><FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon> Morning work</h1>
             <p className='text-2xl my-10 font-semibold text-white bg-gradient-to-r from-sky-400 to-indigo-400 p-5 w-full rounded-lg'>Select today’s exercise</p>
             <div className='block md:flex'>
                 <div className='w-12/12 md:w-8/12'>

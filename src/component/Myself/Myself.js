@@ -13,7 +13,7 @@ const Myself = () => {
                 </div>
                 <div className='flex p-2 my-8 justify-around rounded-md bg-gradient-to-r from-sky-400 to-indigo-500'>
                     <div>
-                        <h1 className='text-left text-white text-xl font-semibold flex items-center'>65 <span className='text-sm ml-1 text-slate-400'>kg</span></h1>
+                        <h1 className='text-left text-white text-xl font-semibold flex items-center'>60 <span className='text-sm ml-1 text-slate-400'>kg</span></h1>
                         <p className='text-lg ml-1 text-start text-slate-300'>Weight</p>
                     </div>
                     <div>
