@@ -65,11 +65,10 @@ const Body = () => {
                     <Myself></Myself>
                     <Break setValue={setValue}></Break>
                     <Details localData={localData} setExeTime={setExeTime}></Details>
-                    <button onClick={notify} className="btn bg-gradient-to-r from-sky-400 to-indigo-500 border-0 text-white w-45">Add Now</button><ToastContainer />
+                    <button onClick={notify} className="btn bg-gradient-to-r from-sky-400 to-indigo-500 border-0 text-white w-45">Complete</button><ToastContainer />
                 </div>
             </div>
         </div>
     );
 };
-// npm run build
 export default Body;
