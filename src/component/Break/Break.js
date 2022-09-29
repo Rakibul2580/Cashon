@@ -2,7 +2,7 @@
 const Break = ({setValue}) => {
     return (
         <div>
-            <h1 className='text-left my-8 text-blue-800 text-2xl font-semibold flex items-center'>Exercise Details</h1>
+            <h1 className='text-left my-8 text-blue-800 text-2xl font-semibold flex items-center'>Add A Break</h1>
                 <div className='flex md:block xl:flex justify-center rounded-md bg-gradient-to-r from-sky-400 to-indigo-500 p-2'>
                     <div className='flex justify-around'>
                     <div className='flex'>
