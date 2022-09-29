@@ -1,12 +1,5 @@
-import React, { useEffect } from 'react';
 
 const Details = ({localData,setExeTime}) => {
-    // let total = [0]
-    // useEffect(()=>{
-    //     const timeGet = localStorage.getItem('break')
-    //     // total = parseInt([total + totlTime])
-    //     console.log('totlTime',timeGet)
-    // },[totlTime])
     return (
         <div>
             <div>
