@@ -21,7 +21,7 @@ const Myself = () => {
                         <p className='text-lg ml-1 text-start text-slate-300'>Height</p>
                     </div>
                     <div>
-                        <h1 className='text-left text-white text-xl font-semibold flex items-center'>25 <span className='text-sm ml-1 text-slate-400'>yrs</span></h1>
+                        <h1 className='text-left text-white text-xl font-semibold flex items-center'>21 <span className='text-sm ml-1 text-slate-400'>yrs</span></h1>
                         <p className='text-lg ml-1 text-start text-slate-300'>Age</p>
                     </div>
                 </div>

@@ -14,18 +14,18 @@ import Qcollapse from '../Qcollapse/Qcollapse';
 
 
 const Body = () => {
-    const [totlTime, settotlTime] = useState([])
+    const [totalTime, settotlTime] = useState([])
     const notifyStime = (addTime) =>{
-        settotlTime([...totlTime, addTime])
+        settotlTime([...totalTime, addTime])
         Swal.fire({
             text: 'Your work has been saved',
             icon: 'success',
             confirmButtonText: 'Cool'
           })
     }
-    const setExeTime = totlTime?.reduce((previousValue, currentValue) => previousValue + currentValue, 0)
+    const setExeTime = totalTime?.reduce((previousValue, currentValue) => previousValue + currentValue, 0)
     
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast("Good job");
 
     const [datas, setDatas] = useState([])
     useEffect(()=>{
@@ -49,7 +49,7 @@ const Body = () => {
     },[breakTime])
 
     return (
-        <div className='bg-white px-3 md:px-6 lg:px-10 pt-10'>
+        <div className='bg-white px-2 md:px-6 lg:px-10 pt-10'>
             <h1 className='text-left text-blue-900 md:text-5xl md:font-bold text-4xl font-semibold '><FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon> Morning work</h1>
             <p className='text-2xl my-10 font-semibold text-white bg-gradient-to-r from-sky-400 to-indigo-400 p-5 w-full rounded-lg'>Select today’s exercise</p>
             <div className='block md:flex'>
@@ -61,7 +61,7 @@ const Body = () => {
                 </div>
                 <Qcollapse></Qcollapse>
                 </div>
-                <div className='w-12/12 md:w-4/12 lg:3/12 px-3 shadow-lg h-full py-8 ml-3 md:sticky top-0'>
+                <div className='w-12/12 md:w-4/12 lg:3/12 px-2 md:px-3 shadow-lg h-full py-8 ml-0 md:ml-3 md:sticky top-0'>
                     <Myself></Myself>
                     <Break setValue={setValue}></Break>
                     <Details localData={localData} setExeTime={setExeTime}></Details>
