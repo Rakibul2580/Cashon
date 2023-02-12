@@ -14,10 +14,10 @@ function App() {
       <div className="w-[84%]">
         <Navbar />
         <div>
-          <div className="mx-5 border-b-2">
+          <div>
             <Top />
           </div>
-          <div className="grid grid-cols-3 pb-10 mx-5 mt-5 border-b-2 gap-7">
+          <div className="grid grid-cols-3 pt-5 pb-10 mx-5 border-y-2 gap-7">
             <div className="col-span-2">
               <Overview />
             </div>

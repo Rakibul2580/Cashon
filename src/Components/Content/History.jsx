@@ -3,7 +3,7 @@ import { TableData } from "../../Data/Table";
 
 const History = () => {
   return (
-    <div className="w-[97%]">
+    <div className="w-[97%] pl-5">
       <div className="flex justify-between my-5">
         <h1 className="text-xl font-semibold">Transaction History</h1>
         <button className="font-semibold text-blue-500">Show All</button>
@@ -43,9 +43,9 @@ const History = () => {
                       <td>{item.method}</td>
                       <td className="flex items-center !-mb-10 space-x-3">
                         <div
-                          className={`h-2 w-2 rounded-full !bg-${item.class}`}
+                          className={`h-2 w-2 rounded-full ${item.bg}`}
                         ></div>
-                        <span className={`!text-${item.class} text-sm`}>
+                        <span className={`${item.textColor} text-sm`}>
                           {item.status}
                         </span>
                       </td>

@@ -59,7 +59,7 @@ const Top = () => {
     <div>
       <div className="flex items-center">
         <div className="w-[380px] my-10  border-r-2 pr-5">
-          <div className="grid grid-cols-2 gap-5 pb-5 border-b-2">
+          <div className="grid grid-cols-2 gap-5 pb-5 ml-5 border-b-2">
             <div className="flex flex-col justify-center ml-5 space-y-3">
               <p className="text-[#9E9E9E]">Total Balance</p>
               <h2 className="text-2xl font-semibold">$1,251,321</h2>
@@ -83,7 +83,7 @@ const Top = () => {
               </ResponsiveContainer>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5 mt-5 ml-5">
+          <div className="grid grid-cols-2 mt-5 ml-5">
             <div className="space-y-3">
               <p className="text-[#9E9E9E]">Income</p>
               <h2 className="text-2xl font-semibold">
